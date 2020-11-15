@@ -1,13 +1,13 @@
-variable string environment {
-
+variable "environment" {
+  type = string
 }
 
-variable string application_name {
-
+variable "application_name" {
+  type = string
 }
-var string region {
-
+variable "region" {
+  type = string
 }
-variable string business_unit {
-
+variable "business_unit" {
+  type = string
 }
