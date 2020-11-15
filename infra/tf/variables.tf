@@ -11,3 +11,9 @@ variable "region" {
 variable "business_unit" {
   type = string
 }
+variable "administrator_login_uid" {
+    type = string
+}
+variable "administrator_login_pwd" {
+    type = string
+}
